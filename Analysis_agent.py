@@ -28,7 +28,6 @@ results_dir = os.path.join(project_root, 'results')
 file_path = os.path.join(results_dir, case_path)
 Input_dir=Output_dir=file_path
 
-# 生成绝对路径
 
 Input_file = "query_result.csv"
 
