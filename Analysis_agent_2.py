@@ -23,7 +23,6 @@ case_path = f"case{get_case_number(results_dir)}"
 file_path = os.path.join(results_dir, case_path)
 Input_dir=Output_dir=file_path
 
-# 生成绝对路径
 
 Input_file = "1_processed_data.csv"
 
