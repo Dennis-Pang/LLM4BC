@@ -26,7 +26,7 @@ langchain_project = os.getenv("LANGCHAIN_PROJECT")
 state = create_new_state()
 workflow = StateGraph(State)
 
-# 全部使用生成的绝对路径
+
 project_root = os.path.dirname(os.path.abspath(__file__))
 
 results_dir = os.path.join(project_root, 'results')
@@ -402,8 +402,3 @@ if __name__ == "__main__":
     run_sql_agent(u_prompt_num_of_pools2)
 
 
-
-
-# 转化成流式传输csv
-
-# 优化了prompt，尽量使用join而不是left join
