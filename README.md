@@ -42,3 +42,6 @@
 2. Environment variables are configured in `.env` file
 3. Dependencies in `requirements.txt` must be installed before running
 4. Database schemas should be defined in the `dbschema/` directory
+
+### License
+MIT license.
